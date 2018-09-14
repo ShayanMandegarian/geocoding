@@ -1,0 +1,45 @@
+Tomtom:
+pros:
+- gets Waverley and Hamilton, Menlo Park, Palo Alto correct
+- can do without City
+cons:
+- gets 650 Serra wrong
+- gets Bradford St wrong
+- can't handle incorrect input
+
+Google: 
+pros:
+- gets 650 Serra correct
+- gets Bradford St correct
+cons:
+- gets Waverley and Hamilton, MP PA wrong
+- can't handle incorrect input
+
+Here: (best)
+pros: 
+- gets Waverley and Hamilton, Menlo Park, Palo Alto correct
+- gets 650 Serra correct
+- gets Bradford St correct
+- can handle full address dump
+- geocoder autocomplete
+cons:
+- some addresses are slightly off, ie ID #860
+
+Loqate:
+pros:
+- SUPER simple json result given
+- Seems to be accurate
+cons:
+- very expensive
+
+Census:
+pros:
+- free, no key required
+cons:
+- lots of addresses not present, doesn't even recognize RWS (only RC)
+
+Tamu:
+pros:
+- lol
+cons:
+- it's bad
